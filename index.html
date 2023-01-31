@@ -1,15 +1,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SuperBlocks! - An Error?!</title>
+        <title>SuperBlocks! - A little place to have fun!</title>
         <link src="stylesheet" href="styles/style.css">
     </head>
 
+    <style>
+         .taskbar {
+            background-color: rgb(49, 49, 160);
+            position: relative;
+            top: 100px;
+            height: 21px;
+         }
+
+         #myaccount {
+            background-color: transparent;
+            border: 0px solid black;
+            color: white;
+            position: relative;
+            left: 100px;
+         }
+         #games {
+            background-color: transparent;
+            border: 0px solid black;
+            color: white;
+            position: relative;
+            left: 150px;
+         }
+         #announcments {
+            background-color: transparent;
+            border: 0px solid black;
+            color: white;
+            position: relative;
+            left: 200px;
+         }
+         #SignUp {
+            position: relative;
+            left: 200px;
+
+            background-color: transparent;
+            border: 0px solid black;
+            color: white;
+            position: relative;
+            left: 500px;
+         }
+         #Login {
+            position: relative;
+            left: 550px;
+
+            background-color: transparent;
+            border: 0px solid black;
+            color: white;
+            position: relative;
+            
+         }
+        
+        
+
+    </style>
+
     <body>
-        <div style="text-align: center;">
-            <h1 style="text-align: center;">Woah! What caused this?</h1>
-            <img src="images/error.png" style="text-align: center;">
-            <p style="text-align: center;">We shut down our site for now.</p>
+        
+        <div class="taskbar">
+            <a href="index.html">
+                <button id="myaccount">My Account</button>
+            </a>
+
+            <a onclick="alert('This button is not available at the moment.')">
+                <button id="games">Games</button>
+            </a>
+            
+            <a onclick="alert('This button is not available at the moment.')">
+                <button id="announcments">Announcments</button>
+            </a>
+
+            <a href="https://forms.gle/8vvCutRCBi7ZPJ3U9" id="SignUp">
+                <button id="SignUp">Sign Up</button>
+            </a>
+
+            <a href="login.html" id="SignUp">
+                <button id="Login">Login</button>
+            </a>
+
+            
+    
+            
+
+            
         </div>
+
+        <div class="bottomtaskbar" style="background-color: rgb(49, 49, 160); position: relative; top: 750px; size:inherit;">
+            <a href="https://discord.gg/P7sA7SZsZY">
+                <img src="images/join_discord.png" style="position: relative; left: 1300px; height: 60px;">
+            </a>
+
+            <p style="color: white; position: absolute; top: -12px;">Copyright 2023 SuperBlocks ©️, All rights except for body type reserved. Body type came from Roblox.</p>
+
+            <a href="https://web.roblox.com/">
+                <img src="images/roblox_logo_black.png" style="position:absolute; left: 1100px; height: 65px;">
+            </a>
+
+        </div>
+
     </body>
 </html>
